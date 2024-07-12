@@ -1,8 +1,3 @@
-'''
-Created on 2018/09/22
-Simple script for translate *.pptx file using request & python-pptx packages
-@author: miro
-'''
 import requests
 import json
 from pptx import Presentation
