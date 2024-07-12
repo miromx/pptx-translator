@@ -11,13 +11,13 @@ def translate(srt_in):
 			   'lang': 'en-ru',
 			   }
 	r = requests.get(url, params=payload)
-	content = r.text  # выводим текст ответа
-	m = json.loads(content)  # парсим json
-	str_out = ''.join(m['text'])  # преобразуем список в строчку
+	content = r.text
+	m = json.loads(content)
+	str_out = ''.join(m['text'])
 	return str_out
 
 if __name__ == '__main__':
-    path_to_presentation = "Presentation.pptx"
+    path_to_presentation = "input_example.pptx"
     name = path_to_presentation[:-5]
 
     prs = Presentation(path_to_presentation)

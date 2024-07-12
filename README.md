@@ -1,6 +1,6 @@
 ## pptx-translator
-Simple script for translate *.pptx file using request &amp; python-pptx packages.
+Simple stupid script for translate *.pptx file using request and python-pptx packages.
 
 Check **requirements.txt** for dependencies.
   
-You need Yandex API key see https://translate.yandex.com/developers
+You need Yandex API key see https://translate.yandex.com/developers. Put it as api_key
